@@ -30,12 +30,11 @@
 #include <iostream>
 #include <rarray> //installed in /usr/local/include
 
-//
 // Determine the next alive status of the cell at location 'index' within the linear set of cells 'cell_alive',
 // based on the alive status of its neighboring cells.
 // 'cell_alive' is a boolean rvector
 
-// Takes the current status 'cell_alive' vector and the 'index' of the cell of interest and determines whether or not it should remain alive for next step
+// Function: Takes the current status 'cell_alive' vector and the 'index' of the cell of interest and determines whether or not it should remain alive for next step
 bool is_cell_alive_next(const rvector<bool> &cell_alive, int index)
 {
     int num_cells = cell_alive.size();                                            // total number of cells
@@ -55,6 +54,35 @@ bool is_cell_alive_next(const rvector<bool> &cell_alive, int index)
 
     else
         return false;
+}
+
+// Function: To initialize the cell at the first timestep
+// Initialize 'alive_status' based on the 'target_fraction' (Fill cells such that the fraction of alive cells is roughly target_fraction)
+// This approach avoids clustering alive cells together by spreading them approximately evenly throughout the vector
+auto initialize_alive_status(const int &num_cells, const double &target_fraction)
+{
+
+    // Initialize 'alive_status' as a boolean rvector where all cells are dead (default sets each element to FALSE)
+    rvector<bool> initial_alive_status(num_cells);
+
+    // Iterate over each element of 'alive_status' -> 'alive' is a reference to each element
+    // Modifications to 'alive' will directly update the corresponding element in 'alive_status'
+    double fill = 0.0;
+    for (bool &alive : initial_alive_status)
+    {
+        fill += target_fraction;
+        if (fill >= 1.0)
+        {
+            alive = true;
+            fill -= 1.0;
+        }
+        else
+        {
+            alive = false;
+        }
+    }
+
+    return initial_alive_status;
 }
 
 int main(int argc, char *argv[])
@@ -94,28 +122,7 @@ int main(int argc, char *argv[])
     //------------------------------- INITIALIZATION --------------------------------------//
     // Simulation system is just the alive status of each cell
 
-    // Initialize the 'alive_status' as a boolean rvector (default initialization sets each element to FALSE)
-    rvector<bool> alive_status(num_cells);
-
-    // Initialize 'alive_status' based on the 'target_fraction' (Fill cells such that the fraction of alive cells is roughly target_fraction)
-    // This approach avoids clustering alive cells together by spreading them approximately evenly throughout the vector
-
-    // Iterate over each element of 'alive_status' -> 'alive' is a reference to each element
-    // Modifications to 'alive' will directly update the corresponding element in 'alive_status'
-    double fill = 0.0;
-    for (bool &alive : alive_status)
-    {
-        fill += target_fraction;
-        if (fill >= 1.0)
-        {
-            alive = true;
-            fill -= 1.0;
-        }
-        else
-        {
-            alive = false;
-        }
-    }
+    rvector<bool> alive_status = initialize_alive_status(num_cells, target_fraction);
 
     //------------------------------- HANDLING OUTPUT --------------------------------------//
 
