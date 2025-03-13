@@ -1,0 +1,116 @@
+commit abe59cac5bdac8862b741b8140215612c0f4442a (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Mar 13 15:04:22 2025 -0400
+
+    Excluded x=L from the domain
+
+ diffusion_substep.cpp |     8 +-
+ diffusion_substep.h   |     3 +-
+ diffusion_substep.o   |   Bin 150536 -> 0 bytes
+ init.cpp              |     4 +-
+ init.h                |     2 +-
+ init.o                |   Bin 126216 -> 0 bytes
+ results_N=100.txt     | 50000 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ solve_KPP_1d.cpp      |    17 +-
+ test_fft              |   Bin 433720 -> 0 bytes
+ test_fft.o            |   Bin 304256 -> 0 bytes
+ 10 files changed, 50016 insertions(+), 18 deletions(-)
+
+commit 1ada831176a13869beaf5aef6507d9f413fec2a8
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Mar 13 13:57:10 2025 -0400
+
+    Added a module for testing the FFT functions
+
+ Makefile              |   7 +-
+ diffusion_substep.cpp |   1 +
+ diffusion_substep.h   |   1 +
+ diffusion_substep.o   | Bin 142504 -> 150536 bytes
+ init.cpp              |   2 +-
+ init.o                | Bin 120776 -> 126216 bytes
+ output.o              | Bin 90816 -> 0 bytes
+ results_N=10.txt      | 600 ---------------------------------------------------------------------------------------------------------------------------
+ results_N=6.txt       | 510 --------------------------------------------------------------------------------------------------------
+ solve_KPP_1d          | Bin 454744 -> 0 bytes
+ solve_KPP_1d.cpp      |   8 +-
+ solve_KPP_1d.o        | Bin 264448 -> 0 bytes
+ test_fft              | Bin 0 -> 433720 bytes
+ test_fft.cpp          |  56 ++++++++++++
+ test_fft.o            | Bin 0 -> 304256 bytes
+ 15 files changed, 68 insertions(+), 1117 deletions(-)
+
+commit cd912f2842f2e4f2e6e6f0720b5d1bb57944053f
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Wed Mar 12 19:15:12 2025 -0400
+
+    Created README file
+
+ README.md             |  84 ++++++++++++++++++
+ diffusion_substep.cpp |  17 ++--
+ diffusion_substep.o   | Bin 0 -> 142504 bytes
+ init.o                | Bin 0 -> 120776 bytes
+ output.o              | Bin 0 -> 90816 bytes
+ results_N=10.txt      | 600 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ results_N=6.txt       | 510 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ solve_KPP_1d          | Bin 0 -> 454744 bytes
+ solve_KPP_1d.cpp      |   9 +-
+ solve_KPP_1d.o        | Bin 0 -> 264448 bytes
+ 10 files changed, 1207 insertions(+), 13 deletions(-)
+
+commit 0fbc1d828b16c2eb746a044c1d18dfe1c6fb9c44
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Wed Mar 12 18:08:25 2025 -0400
+
+    Created a makefile
+
+ Makefile              | 24 ++++++++++++++++++++++++
+ diffusion_substep.cpp |  9 ++++++---
+ diffusion_substep.h   |  2 +-
+ init.cpp              |  9 ---------
+ init.h                |  1 -
+ solve_KPP_1d.cpp      | 42 ++++++++++++------------------------------
+ 6 files changed, 43 insertions(+), 44 deletions(-)
+
+commit 6ece99fe10fa7681889f4256e9669b20e8d6814d
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Wed Mar 12 15:37:19 2025 -0400
+
+    Created header file for diffusion_substep
+
+ diffusion_substep.cpp | 62 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++----
+ diffusion_substep.h   | 29 +++++++++++++++++++++++++++++
+ solve_KPP_1d.cpp      |  2 +-
+ 3 files changed, 88 insertions(+), 5 deletions(-)
+
+commit 5f683dba65a468a4a4ab8b5733b8608140423330
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Wed Mar 12 14:24:06 2025 -0400
+
+    Create a module to perform the diffusion substep
+
+ diffusion_substep.cpp |  16 ++++++++++++++
+ init.cpp              |  13 ++++++------
+ init.h                |   5 -----
+ output.cpp            |   2 +-
+ solve_KPP_1d.cpp      | 143 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 5 files changed, 166 insertions(+), 13 deletions(-)
+
+commit 7db79f652a1b1e7707a3ff17a1ddacfe14fb487c
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Wed Mar 12 12:48:09 2025 -0400
+
+    Added module to store and print the results
+
+ output.cpp | 35 +++++++++++++++++++++++++++++++++++
+ output.h   | 21 +++++++++++++++++++++
+ 2 files changed, 56 insertions(+)
+
+commit 3a8c2f267eab06d6e9ecf8ec5e592f971867f791
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Wed Mar 12 12:46:38 2025 -0400
+
+    Create module for initializing and parsing command-line arguments
+
+ init.cpp | 75 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.h   | 43 +++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 118 insertions(+)
