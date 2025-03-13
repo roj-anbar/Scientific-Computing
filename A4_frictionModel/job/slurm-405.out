@@ -1,0 +1,1282 @@
+make: Entering directory '/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4'
+g++ -O3 -g -Wall -Wfatal-errors -std=c++17   -c -o model.o model.cpp
+g++ -O3 -g -Wall -Wfatal-errors -std=c++17   -c -o testmodel.o testmodel.cpp
+g++  -o testmodel model.o testmodel.o -lboost_program_options
+./testmodel -f testmodel.dat -a 0.125 -g 9.8 -z 0.0 -v 10.0 -t 16.0 -d 0.25
+Output written to 'testmodel.dat'.
+g++ -O3 -g -Wall -Wfatal-errors -std=c++17   -c -o analyze.o analyze.cpp
+g++ -O3 -g -Wall -Wfatal-errors -std=c++17   -c -o friction.o friction.cpp
+g++  -o analyze analyze.o friction.o -lboost_program_options
+./analyze -f testmodel.dat -o analysis.out
+Output written to 'analysis.out'.
+cat analysis.out
+# filename testmodel.dat
+# n 65
+# dt 0.25
+# alpha 0.12457
+make: Leaving directory '/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4'
+make: Entering directory '/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4'
+doxygen -g
+
+
+Configuration file 'Doxyfile' created.
+
+Now edit the configuration file and enter
+
+  doxygen
+
+to generate the documentation for your project
+
+sed -i 's/PROJECT_NAME[ ]*=.*/PROJECT_NAME=Friction Rate Model/' Doxyfile
+doxygen
+/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.h:20: warning: Member alpha (variable) of struct ModelParameters is not documented.
+/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.h:21: warning: Member g (variable) of struct ModelParameters is not documented.
+/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.h:22: warning: Member v0 (variable) of struct ModelParameters is not documented.
+/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.h:23: warning: Member z0 (variable) of struct ModelParameters is not documented.
+Doxygen version used: 1.9.6
+Searching for include files...
+Searching for example files...
+Searching for images...
+Searching for dot files...
+Searching for msc files...
+Searching for dia files...
+Searching for files to exclude
+Searching INPUT for files to process...
+Searching for files in directory /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4
+Reading and parsing tag files
+Parsing files
+Preprocessing /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/analyze.cpp...
+Parsing file /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/analyze.cpp...
+Preprocessing /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/friction.cpp...
+Parsing file /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/friction.cpp...
+Preprocessing /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/friction.h...
+Parsing file /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/friction.h...
+Preprocessing /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.cpp...
+Parsing file /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.cpp...
+Preprocessing /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.h...
+Parsing file /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/model.h...
+Reading /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/README.md...
+Preprocessing /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/testmodel.cpp...
+Parsing file /home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/testmodel.cpp...
+Building macro definition list...
+Building group list...
+Building directory list...
+Building namespace list...
+Building file list...
+Building class list...
+Building concept list...
+Computing nesting relations for classes...
+Associating documentation with classes...
+Associating documentation with concepts...
+Building example list...
+Searching for enumerations...
+Searching for documented typedefs...
+Searching for members imported via using declarations...
+Searching for included using directives...
+Searching for documented variables...
+Building interface member list...
+Building member list...
+Searching for friends...
+Searching for documented defines...
+Computing class inheritance relations...
+Computing class usage relations...
+Flushing cached template relations that have become invalid...
+Computing class relations...
+Add enum values to enums...
+Searching for member function documentation...
+Creating members for template instances...
+Building page list...
+Search for main page...
+Computing page relations...
+Determining the scope of groups...
+Sorting lists...
+Determining which enums are documented
+Computing member relations...
+Building full member lists recursively...
+Adding members to member groups.
+Computing member references...
+Inheriting documentation...
+Generating disk names...
+Adding source references...
+Adding xrefitems...
+Sorting member lists...
+Setting anonymous enum type...
+Computing dependencies between directories...
+Generating citations page...
+Counting members...
+Counting data structures...
+Resolving user defined references...
+Finding anchors and sections in the documentation...
+Transferring function references...
+Combining using relations...
+Adding members to index pages...
+Correcting members for VHDL...
+Computing tooltip texts...
+Generating style sheet...
+Generating search indices...
+Generating example documentation...
+Generating file sources...
+Generating code for file friction.h...
+Generating code for file model.h...
+Generating file documentation...
+Generating docs for file analyze.cpp...
+Generating docs for file friction.h...
+Generating docs for file model.h...
+Generating docs for file testmodel.cpp...
+Generating page documentation...
+Generating docs for page md_README...
+Generating group documentation...
+Generating class documentation...
+Generating docs for compound ModelParameters...
+Generating concept documentation...
+Generating namespace index...
+Generating graph info page...
+Generating directory documentation...
+Generating index page...
+Generating page index...
+Generating module index...
+Generating namespace index...
+Generating namespace member index...
+Generating concept index...
+Generating annotated compound index...
+Generating alphabetical compound index...
+Generating hierarchical class index...
+Generating member index...
+Generating file index...
+Generating file member index...
+Generating example index...
+finalizing index lists...
+writing tag file...
+Running plantuml with JAVA...
+type lookup cache used 16/65536 hits=41 misses=17
+symbol lookup cache used 23/65536 hits=19 misses=23
+finished...
+make -C latex
+make[1]: Entering directory '/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/latex'
+rm -f *.ps *.dvi *.aux *.toc *.idx *.ind *.ilg *.log *.out *.brf *.blg *.bbl refman.pdf
+pdflatex refman
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./refman.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/bk10.clo))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/ifthen.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/array.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/array-2016-10-06.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (./doxygen.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/alltt.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/calc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/float/float.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/verbatim.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/xcolor/xcolor.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-cfg/color.cfg)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-def/pdftex.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/colortbl/colortbl.sty)) (./longtable_doxygen.sty) (./tabu_doxygen.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/varwidth/varwidth.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/fancyvrb/fancyvrb.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/keyval.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/tabularx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/multicol.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/multirow/multirow.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hanging/hanging.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifpdf.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/iftex.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/adjustbox.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/xkeyval/xkeyval.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/xkeyval/xkeyval.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/xkeyval/xkvutils.tex)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/adjcalc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/trimclip.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/graphicx.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/graphics.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/trig.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-cfg/graphics.cfg)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/collectbox/collectbox.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/tc-pdftex.def))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/ifoddpage/ifoddpage.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/amssymb.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/amsfonts.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/stackengine/stackengine.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/etoolbox/etoolbox.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/listofitems/listofitems.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/listofitems/listofitems.tex)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/enumitem/enumitem.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/alphalph/alphalph.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/infwarerr/infwarerr.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/intcalc/intcalc.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/ulem/ulem.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/inputenc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/makeidx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/textcomp.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/wasysym/wasysym.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifxetex.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/fontenc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/helvet.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/courier.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/geometry/geometry.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifvtex.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/changepage/changepage.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/fancyhdr/fancyhdr.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/natbib/natbib.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tocloft/tocloft.sty)
+Writing index file refman.idx
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/newunicodechar/newunicodechar.sty)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 117.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 118.
+
+
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hyperref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/ltxcmds/ltxcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/pdftexcmds/pdftexcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/kvsetkeys/kvsetkeys.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/kvdefinekeys/kvdefinekeys.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/pdfescape/pdfescape.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hycolor/hycolor.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/letltxmacro/letltxmacro.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/auxhook/auxhook.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/kvoptions/kvoptions.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/pd1enc.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hyperref-langpatches.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/etexcmds/etexcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/puenc.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/backref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/rerunfilecheck/rerunfilecheck.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/atveryend-ltx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/uniquecounter/uniquecounter.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/bigintcalc/bigintcalc.sty))))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/url/url.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/bitset/bitset.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/atbegshi-ltx.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hpdftex.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/caption.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/caption3.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/ltcaption.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/etoc/etoc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/t1phv.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/l3backend/l3backend-pdftex.def)
+No file refman.aux.
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/co
+ntext/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/epstopdf-pkg/epstopdf-base.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/nameref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/refcount/refcount.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/gettitlestring/gettitlestring.sty))
+No file refman.toc.
+[1{/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/var/lib/texmf/fonts/map/p
+dftex/updmap/pdftex.map}] [2]
+Chapter 1.
+(./index.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/umsa.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/umsb.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/wasysym/uwasy.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+) [1] [2]
+Chapter 2.
+(./md_README.tex) [3] [4]
+Chapter 3.
+(./annotated.tex
+
+LaTeX Warning: Reference `structModelParameters' on page 5 undefined on input l
+ine 3.
+
+) [5] [6]
+Chapter 4.
+(./files.tex
+
+LaTeX Warning: Reference `analyze_8cpp' on page 7 undefined on input line 3.
+
+
+LaTeX Warning: Reference `friction_8h' on page 7 undefined on input line 4.
+
+
+LaTeX Warning: Reference `model_8h' on page 7 undefined on input line 5.
+
+
+LaTeX Warning: Reference `testmodel_8cpp' on page 7 undefined on input line 6.
+
+) [7] [8]
+Chapter 5.
+(./structModelParameters.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/ts1phv.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+) [9] [10]
+Chapter 6.
+(./analyze_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+
+Underfull \hbox (badness 10000) detected at line 26
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+[11]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.1 on input line 54.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.2 on input line 71.
+
+[12]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.3 on input line 92.
+
+) (./friction_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 24
+[][][]
+[13]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.4 on input line 46.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.5 on input line 63.
+
+) (./friction_8h_source.tex) (./model_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+[14]
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.6 on input line 59.
+
+[15]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.7 on input line 80.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.8 on input line 97.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.9 on input line 114.
+
+
+Overfull \vbox (22.26468pt too high) has occurred while \output is active
+[16]) (./model_8h_source.tex) (./testmodel_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][]
+[17]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.10 on input line 59.
+
+[18]
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.11 on input line 76.
+
+
+Package longtable Warning: Column widths have changed
+(longtable)                in table 6.12 on input line 103.
+
+) [19] [20]
+No file refman.ind.
+
+Package longtable Warning: Table widths have changed. Rerun LaTeX.
+
+(./refman.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `refman.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/cvmfs/soft.computecanada.
+ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</cvm
+fs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64
+-v3/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></cvmfs/soft.
+computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></cvmfs/soft.computec
+anada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/courier/ucr
+r8a.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb></cvmfs/soft.computecanada.ca/gentoo/2023
+/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></cvmfs/sof
+t.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8ac.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/sha
+re/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></cvmfs/soft.computecanada.ca
+/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pf
+b>
+Output written on refman.pdf (22 pages, 118105 bytes).
+Transcript written on refman.log.
+makeindex refman.idx
+This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
+Scanning input file refman.idx....done (29 entries accepted, 0 rejected).
+Sorting entries....done (147 comparisons).
+Generating output file refman.ind....done (70 lines written, 0 warnings).
+Output written in refman.ind.
+Transcript written in refman.ilg.
+pdflatex refman
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./refman.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/bk10.clo))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/ifthen.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/array.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/array-2016-10-06.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (./doxygen.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/alltt.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/calc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/float/float.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/verbatim.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/xcolor/xcolor.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-cfg/color.cfg)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-def/pdftex.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/colortbl/colortbl.sty)) (./longtable_doxygen.sty) (./tabu_doxygen.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/varwidth/varwidth.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/fancyvrb/fancyvrb.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/keyval.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/tabularx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/multicol.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/multirow/multirow.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hanging/hanging.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifpdf.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/iftex.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/adjustbox.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/xkeyval/xkeyval.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/xkeyval/xkeyval.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/xkeyval/xkvutils.tex)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/adjcalc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/trimclip.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/graphicx.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/graphics.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/trig.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-cfg/graphics.cfg)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/collectbox/collectbox.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/tc-pdftex.def))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/ifoddpage/ifoddpage.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/amssymb.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/amsfonts.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/stackengine/stackengine.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/etoolbox/etoolbox.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/listofitems/listofitems.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/listofitems/listofitems.tex)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/enumitem/enumitem.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/alphalph/alphalph.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/infwarerr/infwarerr.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/intcalc/intcalc.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/ulem/ulem.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/inputenc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/makeidx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/textcomp.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/wasysym/wasysym.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifxetex.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/fontenc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/helvet.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/courier.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/geometry/geometry.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifvtex.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/changepage/changepage.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/fancyhdr/fancyhdr.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/natbib/natbib.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tocloft/tocloft.sty)
+Writing index file refman.idx
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/newunicodechar/newunicodechar.sty)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 117.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 118.
+
+
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hyperref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/ltxcmds/ltxcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/pdftexcmds/pdftexcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/kvsetkeys/kvsetkeys.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/kvdefinekeys/kvdefinekeys.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/pdfescape/pdfescape.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hycolor/hycolor.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/letltxmacro/letltxmacro.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/auxhook/auxhook.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/kvoptions/kvoptions.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/pd1enc.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hyperref-langpatches.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/etexcmds/etexcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/puenc.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/backref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/rerunfilecheck/rerunfilecheck.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/atveryend-ltx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/uniquecounter/uniquecounter.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/bigintcalc/bigintcalc.sty))))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/url/url.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/bitset/bitset.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/atbegshi-ltx.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hpdftex.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/caption.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/caption3.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/ltcaption.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/etoc/etoc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/t1phv.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/l3backend/l3backend-pdftex.def) (./refman.aux)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/co
+ntext/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/epstopdf-pkg/epstopdf-base.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/nameref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/refcount/refcount.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/gettitlestring/gettitlestring.sty)) (./refman.out) (./refman.out)
+[1{/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/var/lib/texmf/fonts/map/p
+dftex/updmap/pdftex.map}] [2]
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/umsa.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/umsb.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/wasysym/uwasy.fd) [1] [2]
+Chapter 1.
+(./index.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+) [1] [2]
+Chapter 2.
+(./md_README.tex) [3] [4]
+Chapter 3.
+(./annotated.tex) [5] [6]
+Chapter 4.
+(./files.tex) [7] [8]
+Chapter 5.
+(./structModelParameters.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/ts1phv.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+) [9] [10]
+Chapter 6.
+(./analyze_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+
+Underfull \hbox (badness 10000) detected at line 26
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+[11] [12]) (./friction_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 24
+[][][]
+[13]) (./friction_8h_source.tex) (./model_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+[14]
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+[15]
+Overfull \vbox (22.26468pt too high) has occurred while \output is active
+[16]) (./model_8h_source.tex) (./testmodel_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][]
+[17] [18]) [19] [20] (./refman.ind [21]) (./refman.aux)
+
+Package rerunfilecheck Warning: File `refman.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information){/cvmfs/soft.computecanada.
+ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</cvm
+fs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64
+-v3/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></cvmfs/soft.
+computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></cvmfs/soft.computec
+anada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/courier/ucr
+r8a.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb></cvmfs/soft.computecanada.ca/gentoo/2023
+/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></cvmfs/sof
+t.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8ac.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/sha
+re/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></cvmfs/soft.computecanada.ca
+/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pf
+b>
+Output written on refman.pdf (25 pages, 125315 bytes).
+Transcript written on refman.log.
+latex_count=8 ; \
+while egrep -s 'Rerun (LaTeX|to get cross-references right|to get bibliographical references right)' refman.log && [ $latex_count -gt 0 ] ;\
+    do \
+      echo "Rerunning latex...." ;\
+      pdflatex refman ;\
+      latex_count=`expr $latex_count - 1` ;\
+    done
+makeindex refman.idx
+This is makeindex, version 2.15 [TeX Live 2021] (kpathsea + Thai support).
+Scanning input file refman.idx....done (29 entries accepted, 0 rejected).
+Sorting entries....done (147 comparisons).
+Generating output file refman.ind....done (70 lines written, 0 warnings).
+Output written in refman.ind.
+Transcript written in refman.ilg.
+pdflatex refman
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 Gentoo Linux) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./refman.tex
+LaTeX2e <2020-10-01> patch level 4
+L3 programming layer <2021-02-18>
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/book.cls
+Document Class: book 2020/04/10 v1.4m Standard LaTeX document class
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/bk10.clo))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/ifthen.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/array.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/array-2016-10-06.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/fixltx2e.sty
+
+Package fixltx2e Warning: fixltx2e is not required with releases after 2015
+(fixltx2e)                All fixes are now in the LaTeX kernel.
+(fixltx2e)                See the latexrelease package for details.
+
+) (./doxygen.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/alltt.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/calc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/float/float.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/verbatim.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/xcolor/xcolor.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-cfg/color.cfg)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-def/pdftex.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/colortbl/colortbl.sty)) (./longtable_doxygen.sty) (./tabu_doxygen.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/varwidth/varwidth.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/fancyvrb/fancyvrb.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/keyval.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/tabularx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tools/multicol.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/multirow/multirow.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hanging/hanging.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifpdf.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/iftex.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/adjustbox.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/xkeyval/xkeyval.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/xkeyval/xkeyval.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/xkeyval/xkvutils.tex)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/adjcalc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/trimclip.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/graphicx.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/graphics.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics/trig.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/graphics-cfg/graphics.cfg)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/collectbox/collectbox.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/adjustbox/tc-pdftex.def))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/ifoddpage/ifoddpage.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/amssymb.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/amsfonts.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/stackengine/stackengine.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/etoolbox/etoolbox.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/listofitems/listofitems.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/listofitems/listofitems.tex)))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/enumitem/enumitem.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/alphalph/alphalph.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/infwarerr/infwarerr.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/intcalc/intcalc.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/ulem/ulem.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/inputenc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/makeidx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/textcomp.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/wasysym/wasysym.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifxetex.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/fontenc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/helvet.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/courier.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/sectsty/sectsty.sty
+
+LaTeX Warning: Command \underbar  has changed.
+               Check if current package is valid.
+
+
+LaTeX Warning: Command \underline  has changed.
+               Check if current package is valid.
+
+)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/geometry/geometry.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/iftex/ifvtex.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/changepage/changepage.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/fancyhdr/fancyhdr.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/natbib/natbib.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/tocloft/tocloft.sty)
+Writing index file refman.idx
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/newunicodechar/newunicodechar.sty)
+
+Package newunicodechar Warning: Redefining Unicode character on input line 117.
+
+
+
+Package newunicodechar Warning: Redefining Unicode character on input line 118.
+
+
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hyperref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/ltxcmds/ltxcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/pdftexcmds/pdftexcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/kvsetkeys/kvsetkeys.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/kvdefinekeys/kvdefinekeys.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/pdfescape/pdfescape.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hycolor/hycolor.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/letltxmacro/letltxmacro.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/auxhook/auxhook.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/kvoptions/kvoptions.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/pd1enc.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hyperref-langpatches.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/etexcmds/etexcmds.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/puenc.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/backref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/rerunfilecheck/rerunfilecheck.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/atveryend-ltx.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/uniquecounter/uniquecounter.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/bigintcalc/bigintcalc.sty))))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/url/url.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/bitset/bitset.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/base/atbegshi-ltx.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/hpdftex.def)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/caption.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/caption3.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/caption/ltcaption.sty))
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/etoc/etoc.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/t1phv.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/l3backend/l3backend-pdftex.def) (./refman.aux)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/co
+ntext/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/epstopdf-pkg/epstopdf-base.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/latexconfig/epstopdf-sys.cfg))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/hyperref/nameref.sty
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/refcount/refcount.sty)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/ge
+neric/gettitlestring/gettitlestring.sty)) (./refman.out) (./refman.out)
+[1{/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/var/lib/texmf/fonts/map/p
+dftex/updmap/pdftex.map}] [2]
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/umsa.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/amsfonts/umsb.fd)
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/wasysym/uwasy.fd) [1] [2]
+Chapter 1.
+(./index.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/t1pcr.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+) [1] [2]
+Chapter 2.
+(./md_README.tex) [3] [4]
+Chapter 3.
+(./annotated.tex) [5] [6]
+Chapter 4.
+(./files.tex) [7] [8]
+Chapter 5.
+(./structModelParameters.tex
+(/cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/tex/la
+tex/psnfss/ts1phv.fd)
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+) [9] [10]
+Chapter 6.
+(./analyze_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+
+Underfull \hbox (badness 10000) detected at line 26
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 29
+[][][]
+[11] [12]) (./friction_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+
+Underfull \hbox (badness 10000) detected at line 21
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 24
+[][][]
+[13]) (./friction_8h_source.tex) (./model_8h.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+[14]
+Underfull \hbox (badness 10000) detected at line 30
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 33
+[][][]
+[15]
+Overfull \vbox (22.26468pt too high) has occurred while \output is active
+[16]) (./model_8h_source.tex) (./testmodel_8cpp.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--14
+
+
+Underfull \hbox (badness 10000) detected at line 28
+[][][]
+
+Underfull \hbox (badness 10000) detected at line 31
+[][][]
+[17] [18]) [19] [20] (./refman.ind [21]) (./refman.aux) )
+(see the transcript file for additional information){/cvmfs/soft.computecanada.
+ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}</cvm
+fs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmmi10.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64
+-v3/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></cvmfs/soft.
+computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy10.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/
+share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></cvmfs/soft.computec
+anada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/courier/ucr
+r8a.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dis
+t/fonts/type1/urw/courier/ucrro8a.pfb></cvmfs/soft.computecanada.ca/gentoo/2023
+/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></cvmfs/sof
+t.computecanada.ca/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/h
+elvetic/uhvb8ac.pfb></cvmfs/soft.computecanada.ca/gentoo/2023/x86-64-v3/usr/sha
+re/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></cvmfs/soft.computecanada.ca
+/gentoo/2023/x86-64-v3/usr/share/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pf
+b>
+Output written on refman.pdf (25 pages, 125545 bytes).
+Transcript written on refman.log.
+make[1]: Leaving directory '/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4/latex'
+make: Leaving directory '/home/l/lcl_uotphy1610/lcl_uotphy1610s1046/assignment4'

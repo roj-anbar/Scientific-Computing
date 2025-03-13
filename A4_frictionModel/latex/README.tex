@@ -1,0 +1,33 @@
+It has a module called \char`\"{}friction\char`\"{} that computes the friction rate based on velocity samples v taken a time dt apart.\hypertarget{README_autotoc_md0}{}\doxysection{Generating sample data}\label{README_autotoc_md0}
+You can generate sample data using the \char`\"{}model\char`\"{} module. Model parameters can be specified through command-\/line arguments or the dataset will be created with default parameters (alpha= 0.\+125, v0= 10, z0= 0, g= 9.\+8, dt= 0.\+25, t= 0-\/16)
+
+To generate sample data with certain parameters run\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{make\ testmodel.dat}
+
+\end{DoxyCode}
+\hypertarget{README_autotoc_md1}{}\doxysection{Performing data analysis}\label{README_autotoc_md1}
+To perform the data analysis on a sample data run\+:
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{make\ analysis}
+
+\end{DoxyCode}
+\hypertarget{README_autotoc_md2}{}\doxysection{Generating documentation}\label{README_autotoc_md2}
+Generate documentation with doxygen as follows\+: ~\newline
+
+
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{doxygen\ -\/g}
+\DoxyCodeLine{sed\ -\/i\ 's/PROJECT\_NAME[\ ]*=.*/PROJECT\_NAME=Friction\ Rate\ Model/'\ Doxyfile}
+\DoxyCodeLine{doxygen}
+\DoxyCodeLine{make\ -\/C\ latex}
+
+\end{DoxyCode}
+
+
+This requires doxygen and latex to be installed. The resulting documentation will be in latex/refman.\+pdf and html/index.\+html. 

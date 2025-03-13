@@ -1,0 +1,33 @@
+\hypertarget{model_8h_source}{}\doxysection{model.\+h}
+\mbox{\hyperlink{model_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ MODELH}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ MODELH}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <rarray>}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00018\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structModelParameters}{ModelParameters}}}
+\DoxyCodeLine{00019\ \{}
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{double}\ alpha;\ \ \textcolor{comment}{//\ friction\ constant}}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{double}\ g;\ \ \ \ \ \ \textcolor{comment}{//\ gravitation\ acceleration}}
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{double}\ v0;\ \ \ \ \ \textcolor{comment}{//\ initial\ (vertical)\ velocity}}
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{double}\ z0;\ \ \ \ \ \textcolor{comment}{//\ initial\ height}}
+\DoxyCodeLine{00024\ \};}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00030\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{model_8h_ae2ba5b0bc1d1dfc3ca4fb84433182187}{z}}(\textcolor{keywordtype}{double}\ t,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structModelParameters}{ModelParameters}}\&\ p);}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00036\ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{model_8h_a840187b980175c64899a0a19f23902bf}{v}}(\textcolor{keywordtype}{double}\ t,\ \textcolor{keyword}{const}\ \mbox{\hyperlink{structModelParameters}{ModelParameters}}\&\ p);}
+\DoxyCodeLine{00037\ }
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00045\ rvector<double>\ \mbox{\hyperlink{model_8h_a52c89d786bc9b5f6ea4531b4d204587b}{compute\_model\_v}}(\textcolor{keywordtype}{double}\ t1,\ \textcolor{keywordtype}{double}\ t2,\ \textcolor{keywordtype}{double}\ dt,}
+\DoxyCodeLine{00046\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{structModelParameters}{ModelParameters}}\&\ p);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00055\ rvector<double>\ \mbox{\hyperlink{model_8h_af8ddce45d1286ba443fbb946b2f4c752}{compute\_model\_z}}(\textcolor{keywordtype}{double}\ t1,\ \textcolor{keywordtype}{double}\ t2,\ \textcolor{keywordtype}{double}\ dt,}
+\DoxyCodeLine{00056\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \textcolor{keyword}{const}\ \mbox{\hyperlink{structModelParameters}{ModelParameters}}\&\ p);}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00058\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

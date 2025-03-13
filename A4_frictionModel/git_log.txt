@@ -1,0 +1,361 @@
+commit 0c3dc220cf2209230ed603d7f75b30ad2ebb7dfb
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Feb 15 09:54:28 2025 -0500
+
+    Added a section on possible instabilities and fixes to README
+
+ README.md        |  12 +++++-
+ html/index.html  |  16 ++++++--
+ latex/index.tex  |  14 +++++--
+ latex/refman.aux | 118 ++++++++++++++++++++++++++++---------------------------
+ latex/refman.idx |  58 +++++++++++++--------------
+ latex/refman.ind |  58 +++++++++++++--------------
+ latex/refman.log |  61 +++++++++++++++-------------
+ latex/refman.out |  72 ++++++++++++++++-----------------
+ latex/refman.pdf | Bin 127159 -> 129724 bytes
+ latex/refman.toc |  72 ++++++++++++++++-----------------
+ 10 files changed, 260 insertions(+), 221 deletions(-)
+
+commit 20c0699c5ca90201840ce794cccfd1a8a7de8ec7
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Fri Feb 14 12:16:18 2025 -0500
+
+    Added more info to README
+
+ Doxyfile.bak              | 2736 +++++++++++++++++++++++++++++++++++++++++++++
+ Makefile                  |    2 +-
+ README.md                 |   57 +-
+ html/README.html          |  101 ++
+ html/index.html           |   57 +-
+ html/menudata.js          |    1 -
+ html/search/all_6.js      |    3 +-
+ html/search/searchdata.js |    2 +-
+ latex/README.tex          |   33 +
+ latex/index.tex           |   55 +-
+ latex/refman.aux          |  132 +--
+ latex/refman.idx          |   58 +-
+ latex/refman.ind          |   58 +-
+ latex/refman.log          |   95 +-
+ latex/refman.out          |   79 +-
+ latex/refman.pdf          |  Bin 125545 -> 127159 bytes
+ latex/refman.tex          |    4 -
+ latex/refman.toc          |   77 +-
+ 18 files changed, 3264 insertions(+), 286 deletions(-)
+
+commit 4f7c9942c9d37b6028f5697d1b5a472b0df375dd
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Fri Feb 14 11:29:48 2025 -0500
+
+    Created a job script to run 'make analysis' and 'make doc'
+
+ Makefile               |    0
+ README.md              |    0
+ analyze.cpp            |    0
+ friction.cpp           |    0
+ friction.h             |    0
+ html/analyze_8cpp.html |    4 +-
+ job/frictionModel.sh   |   13 +
+ job/slurm-405.out      | 1282 ++++++++++++++++++++++++++++++++++++++++++++++++
+ latex/analyze_8cpp.tex |    4 +-
+ latex/refman.aux       |    4 +-
+ latex/refman.log       |    4 +-
+ latex/refman.pdf       |  Bin 125550 -> 125545 bytes
+ model.cpp              |    0
+ model.h                |    0
+ testmodel.cpp          |    0
+ 15 files changed, 1303 insertions(+), 8 deletions(-)
+
+commit 8bd8c6d25eaa700025de564573ef696143e3bb79
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 15:00:00 2025 -0500
+
+    Created a document through doxygen by running 'make doc'
+
+ Doxyfile                                | 2736 +++++++++++++++++++++++++++++++
+ Makefile                                |    2 +-
+ analyze                                 |  Bin 986160 -> 986160 bytes
+ analyze.cpp                             |   34 +-
+ analyze.o                               |  Bin 1003744 -> 1003728 bytes
+ html/analyze_8cpp.html                  |  236 +++
+ html/annotated.html                     |   86 +
+ html/bc_s.png                           |  Bin 0 -> 676 bytes
+ html/bc_sd.png                          |  Bin 0 -> 635 bytes
+ html/bdwn.png                           |  Bin 0 -> 147 bytes
+ html/classes.html                       |   87 +
+ html/closed.png                         |  Bin 0 -> 132 bytes
+ html/doc.png                            |  Bin 0 -> 746 bytes
+ html/docd.png                           |  Bin 0 -> 756 bytes
+ html/doxygen.css                        | 2007 +++++++++++++++++++++++
+ html/doxygen.svg                        |   26 +
+ html/dynsections.js                     |  123 ++
+ html/files.html                         |   89 +
+ html/folderclosed.png                   |  Bin 0 -> 616 bytes
+ html/folderopen.png                     |  Bin 0 -> 597 bytes
+ html/friction_8h.html                   |  178 ++
+ html/friction_8h_source.html            |   96 ++
+ html/globals.html                       |   90 +
+ html/globals_func.html                  |   90 +
+ html/index.html                         |  102 ++
+ html/jquery.js                          |   34 +
+ html/md_README.html                     |   83 +
+ html/menu.js                            |  136 ++
+ html/menudata.js                        |   35 +
+ html/model_8h.html                      |  293 ++++
+ html/model_8h_source.html               |  114 ++
+ html/nav_f.png                          |  Bin 0 -> 153 bytes
+ html/nav_fd.png                         |  Bin 0 -> 169 bytes
+ html/nav_g.png                          |  Bin 0 -> 95 bytes
+ html/nav_h.png                          |  Bin 0 -> 98 bytes
+ html/nav_hd.png                         |  Bin 0 -> 114 bytes
+ html/open.png                           |  Bin 0 -> 123 bytes
+ html/pages.html                         |   86 +
+ html/search/all_0.js                    |    5 +
+ html/search/all_1.js                    |    5 +
+ html/search/all_2.js                    |    6 +
+ html/search/all_3.js                    |    4 +
+ html/search/all_4.js                    |    6 +
+ html/search/all_5.js                    |    4 +
+ html/search/all_6.js                    |    5 +
+ html/search/all_7.js                    |    4 +
+ html/search/all_8.js                    |    4 +
+ html/search/all_9.js                    |    4 +
+ html/search/classes_0.js                |    4 +
+ html/search/close.svg                   |   31 +
+ html/search/files_0.js                  |    4 +
+ html/search/files_1.js                  |    4 +
+ html/search/files_2.js                  |    4 +
+ html/search/files_3.js                  |    4 +
+ html/search/functions_0.js              |    4 +
+ html/search/functions_1.js              |    5 +
+ html/search/functions_2.js              |    4 +
+ html/search/functions_3.js              |    4 +
+ html/search/functions_4.js              |    4 +
+ html/search/functions_5.js              |    4 +
+ html/search/functions_6.js              |    4 +
+ html/search/functions_7.js              |    4 +
+ html/search/functions_8.js              |    4 +
+ html/search/mag.svg                     |   37 +
+ html/search/mag_d.svg                   |   37 +
+ html/search/mag_sel.svg                 |   74 +
+ html/search/mag_seld.svg                |   74 +
+ html/search/pages_0.js                  |    4 +
+ html/search/pages_1.js                  |    4 +
+ html/search/search.css                  |  291 ++++
+ html/search/search.js                   |  816 +++++++++
+ html/search/searchdata.js               |   27 +
+ html/splitbar.png                       |  Bin 0 -> 314 bytes
+ html/splitbard.png                      |  Bin 0 -> 282 bytes
+ html/structModelParameters-members.html |   88 +
+ html/structModelParameters.html         |  121 ++
+ html/sync_off.png                       |  Bin 0 -> 853 bytes
+ html/sync_on.png                        |  Bin 0 -> 845 bytes
+ html/tab_a.png                          |  Bin 0 -> 142 bytes
+ html/tab_ad.png                         |  Bin 0 -> 135 bytes
+ html/tab_b.png                          |  Bin 0 -> 169 bytes
+ html/tab_bd.png                         |  Bin 0 -> 173 bytes
+ html/tab_h.png                          |  Bin 0 -> 177 bytes
+ html/tab_hd.png                         |  Bin 0 -> 180 bytes
+ html/tab_s.png                          |  Bin 0 -> 184 bytes
+ html/tab_sd.png                         |  Bin 0 -> 188 bytes
+ html/tabs.css                           |    1 +
+ html/testmodel_8cpp.html                |  278 ++++
+ latex/Makefile                          |   27 +
+ latex/analyze_8cpp.tex                  |   92 ++
+ latex/annotated.tex                     |    4 +
+ latex/doxygen.sty                       |  603 +++++++
+ latex/files.tex                         |    7 +
+ latex/friction_8h.tex                   |   63 +
+ latex/friction_8h_source.tex            |   18 +
+ latex/index.tex                         |   35 +
+ latex/longtable_doxygen.sty             |  448 +++++
+ latex/md_README.tex                     |    1 +
+ latex/model_8h.tex                      |  114 ++
+ latex/model_8h_source.tex               |   33 +
+ latex/refman.aux                        |  135 ++
+ latex/refman.idx                        |   29 +
+ latex/refman.ilg                        |    6 +
+ latex/refman.ind                        |   70 +
+ latex/refman.log                        | 1211 ++++++++++++++
+ latex/refman.out                        |   40 +
+ latex/refman.pdf                        |  Bin 0 -> 125550 bytes
+ latex/refman.tex                        |  207 +++
+ latex/refman.toc                        |   41 +
+ latex/structModelParameters.tex         |   47 +
+ latex/tabu_doxygen.sty                  | 2557 +++++++++++++++++++++++++++++
+ latex/testmodel_8cpp.tex                |  103 ++
+ model.o                                 |  Bin 153424 -> 153424 bytes
+ testmodel                               |  Bin 1586352 -> 1586352 bytes
+ testmodel.cpp                           |    3 +
+ testmodel.o                             |  Bin 1817440 -> 1817440 bytes
+ 116 files changed, 14642 insertions(+), 2 deletions(-)
+
+commit f6bc0ae6037609e5155b87f9dd668beff0516189
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 13:58:18 2025 -0500
+
+    Added doxygen-style comments to 'testmodel.cpp'
+
+ Makefile      |  6 +++---
+ README.md     |  7 +++++--
+ friction.h    |  2 +-
+ model.h       | 13 +++++++------
+ testmodel.cpp | 33 +++++++++++++++++++++++++++++++++
+ 5 files changed, 49 insertions(+), 12 deletions(-)
+
+commit 09b9b904176e51d6c41956de199dad5200d95639
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 12:56:55 2025 -0500
+
+    Modified the headings in README
+
+ README.md | 21 +++++++++++++++++----
+ 1 file changed, 17 insertions(+), 4 deletions(-)
+
+commit d26c353852cce47bdf30a4e1475b33bf54fcc6ae
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 12:56:29 2025 -0500
+
+    Added comments for structure 'ModelParameters'
+
+ model.h | 8 +++++++-
+ 1 file changed, 7 insertions(+), 1 deletion(-)
+
+commit b5a1bea145ab164b55c740727a7f22d4dad54027
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 12:24:58 2025 -0500
+
+    Added a 'doc' target to Makefile to run doxygen
+
+ Makefile | 9 ++++++++-
+ 1 file changed, 8 insertions(+), 1 deletion(-)
+
+commit 56759ef280aa0b91c121a7aac6db5a0aef4866ce
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 12:21:18 2025 -0500
+
+    Created a readme file
+
+ README.md | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+
+commit 6fc3e0aa87915694d08b4c0dbf2dae681b0fb4e7
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 12:08:26 2025 -0500
+
+    Added doxygen-style comments to 'model.h'
+
+ model.h | 27 +++++++++++++++++++++++++++
+ 1 file changed, 27 insertions(+)
+
+commit fa974e7b0e31d22727b45fe2794d84d303cb70c7
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 11:23:19 2025 -0500
+
+    Added doxygen-style comments to friction module
+
+ friction.h | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+
+commit 6ba58d3b26bd014cf2d577c90b8b78c1235356b4
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 11:06:31 2025 -0500
+
+    Performed data analysis by 'make analysis' on 'testmodel.dat'
+
+ analysis.out |   4 ++++
+ analyze      | Bin 0 -> 986160 bytes
+ analyze.o    | Bin 0 -> 1003744 bytes
+ friction.o   | Bin 0 -> 125608 bytes
+ 4 files changed, 4 insertions(+)
+
+commit ff95e8c06b5c4d43b34af3b8f26ec2588376efd0
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Thu Feb 13 11:04:54 2025 -0500
+
+    Created sample data 'testmodel.dat'
+
+ model.o       | Bin 0 -> 153424 bytes
+ testmodel     | Bin 0 -> 1586352 bytes
+ testmodel.dat |  72 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ testmodel.o   | Bin 0 -> 1817440 bytes
+ 4 files changed, 72 insertions(+)
+
+commit 0c43bf338dda0adb377abbaf419d4bf5e6b4c9ef
+Author: Ramses van Zon <rzon@scinet.utoronto.ca>
+Date:   Sat Feb 8 22:35:28 2025 -0500
+
+    Compiler and optimization added to Makefile
+
+ Makefile | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 21028cf6e1ecdcec7cf3d8a1295ffe1093b3ab83
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 22:30:40 2025 -0500
+
+    Small additions to clean and all rule
+
+ Makefile | 12 ++++++++----
+ 1 file changed, 8 insertions(+), 4 deletions(-)
+
+commit 3d7bb42cea49ee830ed64f3170b4c086b2a04985
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 22:25:07 2025 -0500
+
+    testmodel now using doubles (no reason for floats)
+
+ analyze.cpp   |  5 ++++-
+ model.cpp     | 34 +++++++++++++++++-----------------
+ model.h       | 16 ++++++++--------
+ testmodel.cpp | 30 ++++++++++++++++--------------
+ 4 files changed, 45 insertions(+), 40 deletions(-)
+
+commit 0ccc578aa21b74c29a0109823041b442d1f60e82
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 22:21:35 2025 -0500
+
+    Added analyze.cpp and corresponding makefile entries
+
+ Makefile    | 17 +++++++++---
+ analyze.cpp | 86 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 99 insertions(+), 4 deletions(-)
+
+commit dd9b1a1891ee280f7874c2a7355bd6bfef5fa827
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 22:10:36 2025 -0500
+
+    Test model data should not have velocities as that would not be measured
+
+ testmodel.cpp | 3 +--
+ 1 file changed, 1 insertion(+), 2 deletions(-)
+
+commit 5c37da841d79662af8035c5572fa17eb61770746
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 21:35:14 2025 -0500
+
+    added a rule to make testmodel.dat
+
+ Makefile | 3 +++
+ 1 file changed, 3 insertions(+)
+
+commit 81f270b35c7a4f4a497fac64817fc1394c3513e2
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 21:34:33 2025 -0500
+
+    Adding model data generating utility, "testmodel"
+
+ Makefile      | 24 +++++++++++++++++++
+ model.cpp     | 43 ++++++++++++++++++++++++++++++++++
+ model.h       | 24 +++++++++++++++++++
+ testmodel.cpp | 74 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 4 files changed, 165 insertions(+)
+
+commit bfb3e8d22045414bc0c910e4cc7226e7c71cada5
+Author: Ramses van Zon <vanzonr@gmail.com>
+Date:   Sat Feb 8 21:27:33 2025 -0500
+
+    Friction module (for Assignment 4 of PHY1610 Winter 2025)
+
+ friction.cpp | 22 ++++++++++++++++++++++
+ friction.h   |  9 +++++++++
+ 2 files changed, 31 insertions(+)

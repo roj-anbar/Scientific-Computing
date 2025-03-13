@@ -1,0 +1,1018 @@
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+ matrix_generate.o           | Bin 0 -> 56952 bytes
+ multiply_matrix_vector.cpp  |   1 +
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+ matrix_generate.o           | Bin 0 -> 56952 bytes
+ multiply_matrix_vector.cpp  |   1 +
+ multiply_matrix_vector.h    |   2 ++
+ multiply_matrix_vector.o    | Bin 0 -> 53480 bytes
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+ matrix_generate.o           | Bin 0 -> 56952 bytes
+ multiply_matrix_vector.cpp  |   1 +
+ multiply_matrix_vector.h    |   2 ++
+ multiply_matrix_vector.o    | Bin 0 -> 53480 bytes
+ output.cpp                  |   1 +
+ output.o                    | Bin 0 -> 95336 bytes
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+ matrix_generate.o           | Bin 0 -> 56952 bytes
+ multiply_matrix_vector.cpp  |   1 +
+ multiply_matrix_vector.h    |   2 ++
+ multiply_matrix_vector.o    | Bin 0 -> 53480 bytes
+ output.cpp                  |   1 +
+ output.o                    | Bin 0 -> 95336 bytes
+ results_full_mat_blas.txt   |  10 ++++++++++
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+ matrix_generate.o           | Bin 0 -> 56952 bytes
+ multiply_matrix_vector.cpp  |   1 +
+ multiply_matrix_vector.h    |   2 ++
+ multiply_matrix_vector.o    | Bin 0 -> 53480 bytes
+ output.cpp                  |   1 +
+ output.o                    | Bin 0 -> 95336 bytes
+ results_full_mat_blas.txt   |  10 ++++++++++
+ results_full_mat_manual.txt |  10 ++++++++++
+:...skipping...
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+commit c8d1484d3ba2b5085369e6a777dfc820b31c41ff (HEAD -> master)
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 19:04:10 2025 -0500
+
+    Applied final fixes
+
+ Makefile          |   8 +++-----
+ init.cpp          |   2 +-
+ solve_heat_1d     | Bin 458968 -> 458960 bytes
+ solve_heat_1d.cpp |  11 +++++------
+ 4 files changed, 9 insertions(+), 12 deletions(-)
+
+commit 6422eb28059040a844f834acc963e20b78b817e9
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 18:40:30 2025 -0500
+
+    Created README file
+
+ README.md                   |  84 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.cpp                    |   2 +-
+ init.o                      | Bin 129072 -> 0 bytes
+ matrix_generate.o           | Bin 56952 -> 0 bytes
+ multiply_matrix_vector.o    | Bin 53480 -> 0 bytes
+ output.o                    | Bin 95336 -> 0 bytes
+ results_full_mat_blas.txt   |  10 ----------
+ results_full_mat_manual.txt |  10 ----------
+ results_tri_mat_blas.txt    |  10 ----------
+ solve_heat_1d               | Bin 502112 -> 458968 bytes
+ solve_heat_1d.cpp           |   2 +-
+ solve_heat_1d.o             | Bin 376840 -> 0 bytes
+ 12 files changed, 86 insertions(+), 32 deletions(-)
+
+commit ae3a1708616c5ce2f787aa287f3f7bbe1cdf8464
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:29:49 2025 -0500
+
+    Fixed dimensions of banded matrix G_tri
+
+ Makefile                    |   5 +++--
+ init.cpp                    |   3 +--
+ init.h                      |   4 ++--
+ init.o                      | Bin 0 -> 129072 bytes
+ matrix_generate.cpp         |  12 ++++++------
+ matrix_generate.o           | Bin 0 -> 56952 bytes
+ multiply_matrix_vector.cpp  |   1 +
+ multiply_matrix_vector.h    |   2 ++
+ multiply_matrix_vector.o    | Bin 0 -> 53480 bytes
+ output.cpp                  |   1 +
+ output.o                    | Bin 0 -> 95336 bytes
+ results_full_mat_blas.txt   |  10 ++++++++++
+ results_full_mat_manual.txt |  10 ++++++++++
+ results_tri_mat_blas.txt    |  10 ++++++++++
+ solve_heat_1d               | Bin 439296 -> 502112 bytes
+ solve_heat_1d.cpp           |  12 ++++++------
+ solve_heat_1d.o             | Bin 0 -> 376840 bytes
+ 17 files changed, 52 insertions(+), 18 deletions(-)
+
+commit 91a8a78134fd4ab09409b7bc65e65535d5c60c48
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:09:40 2025 -0500
+
+    Changed the type of 'output_interval'
+
+ init.h                   |   2 +-
+ init.o                   | Bin 129584 -> 0 bytes
+ matrix_generate.o        | Bin 58416 -> 0 bytes
+ multiply_matrix_vector.o | Bin 53480 -> 0 bytes
+ solve_heat_1d.cpp        |  14 +++++++++-----
+ solve_heat_1d.o          | Bin 355936 -> 0 bytes
+ 6 files changed, 10 insertions(+), 6 deletions(-)
+
+commit b2802d90f864a05d3212f0b0e3cd9f5a31177696
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 17:03:44 2025 -0500
+
+    Created a module to store solutions
+
+ Makefile                   |   4 +---
+ init.cpp                   |   2 +-
+ init.h                     |   2 +-
+ init.o                     | Bin 129584 -> 129584 bytes
+ matrix_generate.cpp        |  19 ++++++++++---------
+ matrix_generate.o          | Bin 58808 -> 58416 bytes
+ multiply_matrix_vector.cpp |  21 ++++++++++++++++++---
+ multiply_matrix_vector.h   |  11 +++++------
+ multiply_matrix_vector.o   | Bin 0 -> 53480 bytes
+ output.cpp                 |  34 ++++++++++++++++++----------------
+ output.h                   |  21 +++++++++++++++++++--
+ solve_heat_1d              | Bin 362536 -> 439296 bytes
+ solve_heat_1d.cpp          |  40 ++++++++++++++++++++++++----------------
+ solve_heat_1d.o            | Bin 280856 -> 355936 bytes
+ 14 files changed, 97 insertions(+), 57 deletions(-)
+
+commit dc3b2ff7ad457420a6d16bf64ddf058b071dd438
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 14:06:03 2025 -0500
+
+    Modified makefile
+
+ Makefile | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit e7806bb2eafda3827a6e3379fd66ca3a064de2ff
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 14:05:03 2025 -0500
+
+    Implement all different types of matrix-vector multiplication
+
+ Makefile                   |  10 ++++++----
+ init.o                     | Bin 0 -> 129584 bytes
+ matrix_generate.cpp        |  15 +++------------
+ matrix_generate.h          |   9 +++------
+ matrix_generate.o          | Bin 0 -> 58808 bytes
+ multiply_matrix_vector.cpp |  57 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ multiply_matrix_vector.h   |  40 ++++++++++++++++++++++++++++++++++++++++
+ output.cpp                 |   2 +-
+ solve_heat_1d              | Bin 145440 -> 362536 bytes
+ solve_heat_1d.cpp          | 111 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-------------
+ solve_heat_1d.o            | Bin 0 -> 280856 bytes
+ 11 files changed, 208 insertions(+), 36 deletions(-)
+
+commit 28b0a5b94ee9e4e6db15b4f948bdd575687daccf
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 11:28:42 2025 -0500
+
+    Created header file for matrix_generate
+
+ matrix_generate.cpp | 36 ++++++++++++++++++------------------
+ matrix_generate.h   | 31 +++++++++++++++++++++++++++++++
+ solve_heat_1d.cpp   | 10 +++++++---
+ 3 files changed, 56 insertions(+), 21 deletions(-)
+
+commit 5171d582a8e193edba31c127c084d9553edf8432
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 11:21:35 2025 -0500
+
+    Changed the strucutre of make_coeff_matrix_tri
+
+ init.cpp            |  4 ++--
+ init.h              |  2 +-
+ matrix_generate.cpp | 41 ++++++++++++++++++++---------------------
+ solve_heat_1d.cpp   | 29 ++++++++++++++++++++++++-----
+ 4 files changed, 47 insertions(+), 29 deletions(-)
+
+commit 13c7228bd9d97945b0409fa647f37493fae8b016
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 10:58:34 2025 -0500
+
+    Add function for making tridiagonal matrix of coefficients to matrix_generate
+
+ init.h              |  2 +-
+ matrix_generate.cpp | 65 +++++++++++++++++++++++++++++++++++++++++++++++++----------------
+ solve_heat_1d.cpp   |  3 +++
+ 3 files changed, 53 insertions(+), 17 deletions(-)
+
+commit 9990f7290840aed448e7657c523b70ba25945729
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Sat Mar 8 10:04:21 2025 -0500
+
+    Add the function for making full coefficient matrix to 'matrix_generate'
+
+ init.cpp            | 10 +++++-----
+ init.h              | 30 ++++++++++++++++--------------
+ matrix_generate.cpp | 45 +++++++++++++++++++++++++++++++++++++++++++++
+ output.cpp          |  9 ++++++---
+ solve_heat_1d.cpp   | 11 +++++++++++
+ 5 files changed, 83 insertions(+), 22 deletions(-)
+
+commit 3f9fb74302b4a2fd0ee73187913e1cc3cfac1fb8
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Fri Mar 7 17:43:35 2025 -0500
+
+    Created output.cpp
+
+ init.o          | Bin 128680 -> 0 bytes
+ output.cpp      |  29 +++++++++++++++++++++++++++++
+ output.h        |   4 ++++
+ solve_heat_1d.o | Bin 50232 -> 0 bytes
+ 4 files changed, 33 insertions(+)
+
+commit 2ac4fdf6d15ae108171f82b863c92b4efdda8a01
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Fri Mar 7 17:40:09 2025 -0500
+
+    Small fixes (init.cpp runs smoothly now)
+
+ Makefile          |   2 +-
+ init.cpp          |   4 ++--
+ init.o            | Bin 0 -> 128680 bytes
+ solve_heat_1d     | Bin 0 -> 145440 bytes
+ solve_heat_1d.cpp |   4 ++--
+ solve_heat_1d.o   | Bin 0 -> 50232 bytes
+ 6 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 4df9b43adbed737ba4d6a2a24d66786faef1707d
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Fri Mar 7 17:26:34 2025 -0500
+
+    Add functions to init
+    Create main script with Makefile
+
+ Makefile          | 26 ++++++++++++++++++++++++++
+ init.cpp          | 76 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ init.h            | 34 +++++++++++++++++++++++++---------
+ solve_heat_1d.cpp | 15 +++++++++++++++
+ 4 files changed, 142 insertions(+), 9 deletions(-)
+
+commit 24d5265fc927c9fbe560a996c8cbea537bbde289
+Author: Rojin Anbarafshan <rojin.anbarafshan@mail.utoronto.ca>
+Date:   Fri Mar 7 13:08:02 2025 -0500
+
+    Create primary header files
+
+ init.cpp          |  0
+ init.h            | 25 +++++++++++++++++++++++++
+ matrix_generate.h |  0
+ output.h          |  0
+ 4 files changed, 25 insertions(+)
