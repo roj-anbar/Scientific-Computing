@@ -1,0 +1,608 @@
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+commit fc155446f8eb303a0ec74cdde3049a301a0382ae
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+commit fc155446f8eb303a0ec74cdde3049a301a0382ae
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+commit fc155446f8eb303a0ec74cdde3049a301a0382ae
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 09:32:15 2025 -0400
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+commit fc155446f8eb303a0ec74cdde3049a301a0382ae
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 09:32:15 2025 -0400
+
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+commit fc155446f8eb303a0ec74cdde3049a301a0382ae
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 09:32:15 2025 -0400
+
+    Added the main script for running sims
+:...skipping...
+commit a4f889ebd3857633ce9392200cfde3c93357e31e (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Mar 20 13:13:38 2025 -0400
+
+    Change lattice to rarray<int> instead of booleans
+
+commit f7389e168a17dd387e16c197e8e1fa818f94439e
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 16:49:29 2025 -0400
+
+    Added more details to README
+
+commit 9623b0c9bcf568ca698465af43a6cfc572466043
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:29:52 2025 -0400
+
+    Added public function 'simulate_walker' to header file
+
+commit ede367d7e23ad44b9fd9485b45e097b713101c16
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:17:16 2025 -0400
+
+    Created makefile
+
+commit 847d00e4e1f501fa94bcb8c18b9f0c207e5fed68
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 14:13:39 2025 -0400
+
+    Created README
+
+commit ac424cb4fad7b70b21fac748c3e02969a441f04d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 11:55:06 2025 -0400
+
+    Add comments to the main module
+
+commit fc155446f8eb303a0ec74cdde3049a301a0382ae
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Mar 19 09:32:15 2025 -0400
+
+    Added the main script for running sims
+
+commit faf3a8d528066e80166f0d4ab0b0abdbb4fcca2d
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Tue Mar 18 20:02:02 2025 -0400
+
+    Created a module for simualting  a single walker
+
+commit 9a2194286cd46603bb0868e44ffd81569977ec0f
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Tue Mar 18 19:37:17 2025 -0400
+
+    Created module for settin up the lattice
+
+commit f59949141830b5a4fea20101fe7d9129c01d2815
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Tue Mar 18 19:36:59 2025 -0400
+
+    Created 'init' module for handling the command-line argument
