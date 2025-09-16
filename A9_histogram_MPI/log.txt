@@ -1,0 +1,523 @@
+ommit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:06:21 2025 -0400
+
+    Slight fix to normalization
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:06:21 2025 -0400
+
+    Slight fix to normalization
+
+commit c343a9e7eb9805538bf0d85fd6e4dd4ad75e77a4
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:06:21 2025 -0400
+
+    Slight fix to normalization
+
+commit c343a9e7eb9805538bf0d85fd6e4dd4ad75e77a4
+Author: roj-anbar <rojin.anbar@gmail.com>
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:06:21 2025 -0400
+
+    Slight fix to normalization
+
+commit c343a9e7eb9805538bf0d85fd6e4dd4ad75e77a4
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 13:28:03 2025 -0400
+
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:06:21 2025 -0400
+
+    Slight fix to normalization
+
+commit c343a9e7eb9805538bf0d85fd6e4dd4ad75e77a4
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 13:28:03 2025 -0400
+
+    Added v2 to makefile and job scripts
+:...skipping...
+commit a6e4e41cf13865fb37f791e1b92a1b9f12a810a6 (HEAD -> main)
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:37:06 2025 -0400
+
+    Added job outputs
+
+commit 43ed4400e419f116bb196bfcbe9796c828dda157
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:19:21 2025 -0400
+
+    Modified output filename in job scripts
+
+commit 703e5b30a1db628e2ad8ea93571f51eb1866c704
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 15:10:24 2025 -0400
+
+    Added details to readme
+
+commit e1d413bde007b1d8ea148d22bc0cb03637a24eea
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:16:19 2025 -0400
+
+    Created job scripts for different MPI processes
+
+commit 837c54d60c2cab007b47db6c22703696dcdfe778
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 14:06:21 2025 -0400
+
+    Slight fix to normalization
+
+commit c343a9e7eb9805538bf0d85fd6e4dd4ad75e77a4
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 13:28:03 2025 -0400
+
+    Added v2 to makefile and job scripts
+
+commit 5db85bf74d8316a0900ecb1b8e1eb8ab2cb1f415
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sun Apr 6 13:11:34 2025 -0400
+
+    Created the second version of parallel reading
+
+commit 3700b0c8b9f041996fd66020721ca4b341d08188
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sat Apr 5 16:03:52 2025 -0400
+
+    Modified hisotgram bins
+
+commit a07ec7fdd988b67965bebfc674b636eb486624b7
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Sat Apr 5 14:33:10 2025 -0400
+
+    Created makefile and job scritps
+
+commit ca557715bdb08a5e87770264311ac1a50ede63eb
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Apr 3 14:34:07 2025 -0400
+
+    Changed vector types from rarray to std::vector
+
+commit ff9a2706bbbca44d85ca3209911ad2b14ea8aac3
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Apr 3 14:15:04 2025 -0400
+
+    Fixed the function for calculating histogram locally on each rank
+
+commit 8cd3bceeff8e26a47410ec828c5a2b7d93d34e07
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Thu Apr 3 13:47:50 2025 -0400
+
+    Added scatter and reduction of main function
+
+commit 98073c1122364bc77e5c48da9b24f0318eb14e51
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Apr 2 18:44:06 2025 -0400
+
+    Read data in batches and distribute among ranks
+
+commit 3b70afd2a8cba6a917420cddc35cdbc3eeb62a78
+Author: roj-anbar <rojin.anbar@gmail.com>
+Date:   Wed Apr 2 16:25:32 2025 -0400
+
+    Created a root driver for this project
